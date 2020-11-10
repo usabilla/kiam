@@ -6,7 +6,7 @@
 # Go tests use this curl binary for integration tests.
 #
 
-FROM ubuntu:trusty
+FROM 644152709166.dkr.ecr.eu-west-1.amazonaws.com/usabilla/dev/dockerhub-mirror/ubuntu:trusty
 
 RUN apt-get update && \
     apt-get upgrade -y && \
